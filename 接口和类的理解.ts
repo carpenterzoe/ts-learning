@@ -1,3 +1,5 @@
+
+
 // case 1
 // 实现一个print函数，它将传入的对象打印出来。在实际实现上，它将调用对象的getContent方法。
 // 这样书写是有问题的，Typescript中有类型检查，必须要确保obj中存在getContent方法，才能让print函数正常工作不报错。
@@ -61,3 +63,5 @@ let p = new Passage();
 print(a1); // "I am an article."
 print(p); // "I am a passage."
 }
+
+// reference: https://segmentfault.com/q/1010000005648974
